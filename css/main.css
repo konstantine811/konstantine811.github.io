@@ -32,7 +32,10 @@
   height: 120px; }
 
 .phone {
-  width: 40%; }
+  width: 40%;
+  margin: 24px 22px;
+  -webkit-border-radius: 34px;
+          border-radius: 34px; }
 
 .phones {
   font-size: 1em; }
@@ -138,3 +141,11 @@
   -webkit-border-radius: 10px;
           border-radius: 10px;
   outline: none; }
+
+.text_phone {
+  width: 600px;
+  position: relative;
+  float: left;
+  font-size: 21px;
+  background: white;
+  margin: 0 18px; }
