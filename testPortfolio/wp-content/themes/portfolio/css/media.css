@@ -1,0 +1,111 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.price .price_column .price_row {
+    margin: 0px 13px;
+    }
+    .header {
+    	position: fixed
+    }
+
+ .header .header_container .header_logo h1 {
+    font-size: 19pt;
+}
+.header .header_container .header_logo p {
+    font-size: 7pt;
+   }
+   .header .header_container .header_logo {
+    top: 13px;
+    }
+    .nav_menu ul li {
+    margin: 0 7px;
+    font-size: 9pt;
+    padding: 0px 0px;
+    }
+    .nav_menu {
+    margin: 4% 0;
+    }
+    .header_phone_time {
+    width: 19%;
+    margin-top: 36px;
+    padding: 0 0;
+}
+.header_button {
+    width: 21%;
+    padding: 0 0;
+    margin: 31px 0px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.price .price_column .price_row {
+    margin: 0px 0px;
+    }
+    .header {
+    	position: fixed
+    }
+    .col-md-4.col-sm-4.col-xs-4.price_column {
+    padding: 0 0px;
+}
+.price h4 {
+    width: 100%;
+ }
+
+.row {
+    margin-right: -141px;
+    margin-left: -84px;
+}
+.header_phone_time {
+    width: 19%;
+    margin-top: 27px;
+    padding: 0 0;
+}
+.header_phone_time p {
+    padding: 0 5px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

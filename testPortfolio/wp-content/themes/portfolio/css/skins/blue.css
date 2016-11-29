@@ -1,0 +1,109 @@
+.header_logo span {
+  color: #4fcce4;
+}
+
+.nav_menu i {
+  color: #4fcce4;
+}
+
+.nav_menu ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_menu ul li {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.nav_menu ul li:hover {
+  border-bottom: #4fcce4 solid 4px;
+  -webkit-transition-delay: 0.8s ease;
+          transition-delay: 0.8s ease;
+  cursor: pointer;
+}
+
+.header_button button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+}
+
+.btn_close {
+  background-color: #4fcce4;
+}
+
+.btn_close:hover .line_1, .btn_close:hover .line_2 {
+  background-color: #4fcce4;
+  height: 10px;
+  margin-top: -4px;
+  margin-left: -0.9px;
+}
+
+.header_popup button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+}
+
+#home a {
+  background: -webkit-gradient(linear, left bottom, left top, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(bottom, #4fcce4, #6cd1b5);
+  background: linear-gradient(to top, #4fcce4, #6cd1b5);
+}
+
+.row_about svg {
+  fill: #6cd1b5;
+  -webkit-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
+}
+
+.row_about .about_us:hover {
+  background-color: #6cd1b5;
+}
+
+.row_about .about_us:hover svg {
+  fill: white;
+}
+
+.carousel a i {
+  color: #6cd1b5;
+}
+
+.price_row {
+  -webkit-transition: all .6s ease-in;
+  transition: all .6s ease-in;
+  cursor: pointer;
+}
+
+.price_row:hover h4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+  color: white;
+}
+
+.price_row:hover a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+}
+
+.price_column p::after {
+  background-color: #6cd1b5;
+}
+
+.price_column p sub {
+  color: #6cd1b5;
+}
+
+.map button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+  color: white;
+}
+
+.footer_logo span {
+  color: #4fcce4;
+}
